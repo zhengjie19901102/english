@@ -1,0 +1,84 @@
+body{margin:0;padding:0}
+html{width: 100%;height: 100%;background-image: url(../img/background-img.jpg);background-position: 0 0;
+background-size: 100% 100%;}
+a{text-decoration: none;}
+.clear-both{width: 100%;height: 1px;clear: both;}
+/**
+ * 登录框主体 
+ */
+.login-div{width:330px;height: 423px;margin: 65px auto;font-family: "微软雅黑",verdana, geneva, arial, helvetica, sans-serif;}
+/**
+ * HEAD 
+ */
+.login-head div:last-child{text-align: center;height: 50px;line-height: 50px;font-size: 17px;color: #a5a5a5;}
+.login-head div:first-child{text-align: center;line-height: 45px;font-size: 23px;}
+.login-head div:first-child span{color: #ffffff;display: inline-block;width: 216px;background-color: #a3c5ce;
+text-align: center;}
+
+/**
+ * BODY 
+ */
+.login-body{width: 330px;height: 328px;background-color: rgba(255,255,255,0.6);position: relative;}
+.login-body div:first-child{padding-top:5px;}
+.login-body div:first-child div{font-size: 13px;text-align: right;padding-top:0;}
+.login-body div:first-child div a{margin-right: 7px;color: #b1b1b1;}
+.login-body div:first-child h2{font-weight:400;margin:0;font-size: 22px;color:#94aab0;text-align: center;padding-top: 14px;padding-bottom: 14px;}
+
+/**
+ * 弹出层 
+ */
+#layout{display: none;font-size: 14px;
+color: #F7F7F7;background: rgba(0,0,0,0.3);font-weight: 200;padding: 5px;border-radius: 25px;
+position: absolute;}
+
+/**
+ * 修改placeholder 颜色 
+ */
+.login-body div:nth-child(2) input:-ms-input-placeholder{color: #adabaa;}
+.login-body div:nth-child(2) input::-webkit-input-placeholder{color: #adabaa;}
+.login-body div:nth-child(2) input:-moz-placeholder{color: #adabaa;}
+.login-body div:nth-child(2) input::-moz-placeholder{color: #adabaa;}
+
+.login-body div:nth-child(2) div:first-child{color: #949494;font-size: 14px;text-align: center;}
+.login-body div:nth-child(2) div{padding-left: 40px;padding-right: 40px;}
+.login-body div:nth-child(2) input{outline:0;text-align: center;width: 100%;height: 27px;border:none;border-bottom: 1px solid #e1dfdd;
+font-size: 16px;background-color: rgba(255,255,255,0.0);font-style: normal;font-weight: 200;color: #949494;}
+.login-body-loginname{height: 28px;margin-bottom: 15px;margin-top: 10px;}
+
+/**
+ * 修改remember checkbox 
+ */
+.login-body div:nth-child(2) div:last-child{margin-top: 16px;}
+.login-body div:nth-child(2) div:last-child input{width: auto}
+.login-body div:nth-child(2) div:last-child a,.login-body div:nth-child(2) div:last-child span{line-height: 27px;
+vertical-align: text-bottom;font-size: 13px;color: #949494;cursor: pointer;}
+.login-body div:nth-child(2) div:last-child label:last-child{margin-left: 41%;}
+.login-body div:nth-child(2) div:last-child span{display: inline-block;line-height: 32px;
+vertical-align: bottom;}
+/**
+ * 登录按钮 
+ */
+.login-body div:last-child{text-align: center;}
+.login-body div:last-child button{width: 125px;height: 36px;border: 1px solid #94aab0;font-size: 16px;
+border-radius: 17px;background-color: #94aab0;color: #fff;outline: none;cursor: pointer;font-weight: 200;}
+.login-body div:last-child button:active{background: #748a90;}
+.login-btn{padding-top: 20px;}
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('checkbox/iconfont.eot');
+  src: url('checkbox/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('checkbox/iconfont.woff') format('woff'),
+  url('checkbox/iconfont.ttf') format('truetype'),
+  url('checkbox/iconfont.svg#iconfont') format('svg');
+}
+.checkbox{font-size:27px;line-height:32px;display: inline-block;width: 32px;height: 32px;
+border-radius: 3px;color:#94AAB0;cursor: pointer;}
+.checkbox:before{
+	content:'\e671'
+}
+#checkbox{display: none;}
+#checkbox:checked+label.checkbox:before{
+	content:'\e621'
+}

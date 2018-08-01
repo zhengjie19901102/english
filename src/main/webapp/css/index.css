@@ -1,0 +1,73 @@
+/**
+ * body-padding 
+ */
+body{padding-top: 51px;}
+/**
+ * nav 
+ */
+.navbar{margin-bottom: 0px;}
+/**
+ * nav中的注册和登录按钮 
+ */
+#nav-ui li > a{display: inline-block;}
+#nav-ui li > a:first-child{padding-right: 0;}
+#nav-ui li > a:last-child{padding-left: 0;}
+/**
+ * nav中的dropdwn-menu
+ */
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover{background-color: #94aab0!important;}
+.navbar .navbar-nav .open .dropdown-menu > li > a{padding-top:5px;padding-bottom: 5px;padding-right: 7px;}
+.navbar .navbar-nav .open .dropdown-menu{padding: 0;}
+
+.starter-template{padding-top: 30px;}
+
+/*
+ * btn
+ */
+.starter-template .row div button{outline: none;}
+.starter-template .row div button:active{outline: none;}
+.starter-template .row div a{
+	padding:0;line-height:48px;
+}
+.starter-template .row div:first-child a{
+	background-color: #94aab0;
+	border: 1px solid #94aab0;
+}
+.starter-template .row div:first-child a:active{
+	background: #748a90;
+}
+.starter-template .row div:first-child a{
+	width: 180px;
+	height: 48px;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 200;
+}
+.starter-template .row div:last-child a{
+	width: 180px;
+	height: 48px;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 200;
+	border:1px solid #94aab0;
+	color: #94aab0;
+}
+.starter-template .row div:last-child a:hover{
+	background-color:#fefefe;
+}
+
+.starter-template .row div:last-child button:hover{
+background-color: #F7F7F7;
+}
+.starter-template .row div:last-child button:focus{
+background-color: #F7F7F7;
+}
+
+.container .row p.lead:first-of-type{margin-bottom: 10px;}
+#content-king{margin-top: 100px;}
+
+/**
+ * navbar-fixed-bottom 
+ */
+.navbar.navbar-fixed-bottom{padding-top: 12px;!important;}
+
